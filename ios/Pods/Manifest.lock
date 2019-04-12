@@ -1,0 +1,16 @@
+PODS:
+  - MaterialControls (1.2.2)
+
+DEPENDENCIES:
+  - MaterialControls
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MaterialControls
+
+SPEC CHECKSUMS:
+  MaterialControls: 1c6b29e78d3a13d8dd6a67ed31b6d26eb5de8f72
+
+PODFILE CHECKSUM: 4a320bf98e7f7e414d7d7f5079edf1b2d6679c9b
+
+COCOAPODS: 1.7.0.beta.2
