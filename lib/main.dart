@@ -39,20 +39,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
   String _message = '';
 
-  void _incrementCounter() {
-    setState(() {
-      //_counter++;
-    });
-  }
-
-  Future<void> _launchPlatformCount() async {
-    final String platformCounter =
+  Future<void> _launchPlatformMessage() async {
+    final String platformMessage =
         await _methodChannel.invokeMethod('switchView', _message);
-    //final String platformMessage =
-        //await _methodChannel.invokeMethod('switchView', _message);
     setState(() {
-      _message = platformCounter;
-      //_message = platformMessage;
+      _message = platformMessage;
     });
   }
 
@@ -70,8 +61,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     Text(
-                      //'Button tapped $_counter time${ _counter == 1 ? '' : 's' }.',
-                      //'Message from iOS: $_message',
                       '${_message.isEmpty ? "iOS hasn't sent any message yet!" : "Message from iOS: $_message"}',
                       style: const TextStyle(fontSize: 17.0),
                     ),
