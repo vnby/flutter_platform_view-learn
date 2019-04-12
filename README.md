@@ -10,3 +10,5 @@ On iOS we use a CocoaPods dependency to add a Material Design button, and so
 pushd ios/ ; pod install ; popd
 flutter run
 ```
+
+Part of KASKUS Part-time Project
