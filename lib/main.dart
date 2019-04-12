@@ -39,7 +39,13 @@ class _MyHomePageState extends State<MyHomePage> {
 
   String _message = '';
 
-  Future<void> _launchPlatformMessage() async {
+  void _incrementCounter() {
+    setState(() {
+
+    });
+  }
+
+  Future<void> _launchPlatformCount() async {
     final String platformMessage =
         await _methodChannel.invokeMethod('switchView', _message);
     setState(() {
