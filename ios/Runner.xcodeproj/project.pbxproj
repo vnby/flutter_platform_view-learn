@@ -360,7 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
-				FLUTTER_ROOT = /Users/alvin/Dev/mobile/flutter;
+				FLUTTER_ROOT = /Users/alvin/Documents/Dev/mobile/flutter;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
@@ -473,7 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
-				FLUTTER_ROOT = /Users/alvin/Dev/mobile/flutter;
+				FLUTTER_ROOT = /Users/alvin/Documents/Dev/mobile/flutter;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
@@ -496,7 +496,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
-				FLUTTER_ROOT = /Users/alvin/Dev/mobile/flutter;
+				FLUTTER_ROOT = /Users/alvin/Documents/Dev/mobile/flutter;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",

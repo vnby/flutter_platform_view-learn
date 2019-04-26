@@ -7,6 +7,7 @@
 
 @interface PlatformViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UIView *screenUI;
 @property (weak, nonatomic) IBOutlet UILabel *incrementLabel;
 @end
 
@@ -15,6 +16,9 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   [self setIncrementLabelText];
+    
+  // Add an observer that will respond to loginComplete
+  [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (IBAction)handleIncrement:(id)sender {
@@ -26,18 +30,13 @@
     NSString* messageFromInput = self.textField.text;
     
     [self.delegate sendMessage:messageFromInput];
-    //[self.delegate didUpdateCounter:self.counter];
-  [self dismissViewControllerAnimated:NO completion:nil];
+    [self dismissViewControllerAnimated:NO completion:nil];
 }
 
 - (void)setIncrementLabelText {
-//  NSString* text = [NSString stringWithFormat:@"Button tapped %d %@.",
-//                    self.counter,
-//                    (self.counter == 1) ? @"time" : @"times"];
     NSString* message = [NSString stringWithFormat:@"Message from Flutter: %@", self.message];
-  self.incrementLabel.text = message;
+    self.incrementLabel.text = message;
 }
-
 
 @end
 

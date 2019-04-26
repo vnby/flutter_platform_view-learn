@@ -145,12 +145,13 @@
                     </view>
                     <connections>
                         <outlet property="incrementLabel" destination="qaB-rs-mWp" id="bFY-of-WoI"/>
+                        <outlet property="screenUI" destination="PVo-OY-IKE" id="DtZ-5U-upB"/>
                         <outlet property="textField" destination="vwu-Za-Czb" id="3Lk-dz-wrJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7qW-nP-WZA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="805.60000000000002" y="197.45127436281859"/>
+            <point key="canvasLocation" x="1305" y="184"/>
         </scene>
     </scenes>
     <resources>

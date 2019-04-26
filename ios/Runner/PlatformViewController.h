@@ -7,6 +7,7 @@
 @protocol PlatformViewControllerDelegate <NSObject>
 - (void)didUpdateCounter:(int)counter;
 - (void)sendMessage:(NSString*)message;
+- (void) postNotification:(NSString*)message;
 @end
 
 
